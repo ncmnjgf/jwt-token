@@ -1,0 +1,25 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGFkYXNvIiwiaWF0IjoxNzU4NTUzMDY1LCJleHAiOjE3NTg1NTMwODB9.QcZQyjDBMMFfKJ47l6W17vtIjA-RbEeuYqZOTts5X3c
+###
+
+POST http://localhost:4000/token
+Content-Type:application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGFkYXNvIiwiaWF0IjoxNzU4NTUzMzkwfQ._5fFLor7tfpRjCnDgWQfW8KC1C2H6VxefjHKc37XtPQ"
+}
+###
+DELETE  http://localhost:4000/logout
+Content-Type:application/json
+
+{
+"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRGFkYXNvIiwiaWF0IjoxNzU4NTUzMzI5fQ.jcYbpVwe7n1dsLmDUfvhjNBn-D6hIyrbVSL-qZrkkz4"
+}
+###
+POST http://localhost:4000/login
+Content-Type:application/json
+
+{
+  "username": "Dadaso"
+}
+
