@@ -57,4 +57,3 @@ This project implements a **full authentication flow** using JWT:
 
 ```bash
 git clone https://github.com/yourusername/jwt-auth-node.git
-cd jwt-auth-node
